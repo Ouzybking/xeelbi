@@ -8929,8 +8929,8 @@ a.text-theme:hover,
 }
 
 .about-hero .text {
-    font-size: 48px;
-    line-height: 1.23;
+    font-size: 30px;
+    line-height: 2px;
     color: var(--white-color);
     text-transform: uppercase
 }
