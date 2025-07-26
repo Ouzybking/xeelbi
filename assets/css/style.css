@@ -29,9 +29,9 @@
 :root {
     --theme-color: #DDB166;
     --title-color: var(--white-color);
-    --body-color: var(--gray-color);
-    --black-color: #171717;
-    --black-color2: #222222;
+    --body-color: #2770b7;
+    --black-color: #2770b7;
+    --black-color2: #2770b7;
     --gray-color: #AAAAAA;
     --white-color: #ffffff;
     --light-color: #9fa2ad;
@@ -143,7 +143,7 @@ th {
 }
 
 a {
-    color: var(--title-color);
+    color: #2770b7;
     text-decoration: none;
     outline: 0;
     transition: all ease .4s
@@ -225,7 +225,7 @@ h5,
 .h6,
 h6 {
     font-family: var(--title-font);
-    color: var(--title-color);
+    color: #2770b7;
     text-transform: none;
     font-weight: 700;
     line-height: 1.4;
@@ -3480,7 +3480,7 @@ select.style2 option,
 .form-select.style2 option,
 textarea.style2 option,
 input.style2 option {
-    background-color: var(--title-color);
+    background-color: #2770b7;
     color: var(--body-color);
     padding: 2px 15px
 }
@@ -3537,9 +3537,9 @@ select.style-border,
 textarea.style-border,
 input.style-border {
     background: rgba(0, 0, 0, 0);
-    border-bottom: 2px solid var(--title-color);
+    border-bottom: 2px solid #2770b7;
     border-radius: 0;
-    color: var(--title-color);
+    color: #2770b7;
     font-size: 18px;
     font-weight: 400;
     padding: 0
@@ -3580,7 +3580,7 @@ input.style3 {
 }
 
 .form-text a {
-    color: var(--title-color);
+    color: #2770b7;
     font-weight: 500
 }
 
@@ -3903,7 +3903,7 @@ label {
     margin-bottom: .5em;
     margin-top: -0.3em;
     display: block;
-    color: var(--title-color);
+    color: #2770b7;
     font-family: var(--body-font);
     font-size: 16px
 }
@@ -4023,7 +4023,7 @@ textarea.is-invalid {
 }
 
 .mobile-menu-wrapper .menu-toggle {
-    border: 2px solid var(--title-color);
+    border: 2px solid #2770b7;
     font-size: 22px;
     position: absolute;
     right: 20px;
@@ -4035,7 +4035,7 @@ textarea.is-invalid {
     line-height: 48px;
     font-size: 14px;
     z-index: 1;
-    color: var(--title-color);
+    color: #2770b7;
     background-color: rgba(0, 0, 0, 0);
     border-radius: 50%
 }
@@ -4079,7 +4079,7 @@ textarea.is-invalid {
 .mobile-menu-wrapper .sidebar-wrap h6 {
     font-size: 14px;
     font-weight: 600;
-    color: var(--title-color);
+    color: #2770b7;
     margin-bottom: 0;
     line-height: 24px
 }
@@ -4122,7 +4122,7 @@ textarea.is-invalid {
     font-size: 20px;
     font-weight: 600;
     font-family: var(--title-font);
-    color: var(--title-color);
+    color: #2770b7;
     letter-spacing: normal;
     text-transform: capitalize
 }
@@ -4170,7 +4170,7 @@ textarea.is-invalid {
     display: inline-block;
     text-align: end;
     background-color: rgba(0, 0, 0, 0);
-    color: var(--title-color);
+    color: #2770b7;
     border-radius: 50%
 }
 
@@ -4439,7 +4439,7 @@ textarea.is-invalid {
 }
 
 .btn.btn-border {
-    color: var(--title-color);
+    color: #2770b7;
     padding: 19.5px 21px 19.5px 25px
 }
 
@@ -4567,7 +4567,7 @@ textarea.is-invalid {
 }
 
 .icon-btn:hover {
-    background-color: var(--title-color);
+    background-color: #2770b7;
     color: var(--white-color)
 }
 
@@ -4705,7 +4705,7 @@ textarea.is-invalid {
     display: inline-block;
     padding: 10px 81px 10px 35px;
     max-width: 200px;
-    color: var(--title-color);
+    color: #2770b7;
     border-radius: 60px;
     transition: color .3s ease;
     border: 1px solid var(--border-color);
@@ -4758,7 +4758,7 @@ textarea.is-invalid {
     font-size: 16px;
     font-weight: 600;
     max-width: 140px;
-    color: var(--title-color);
+    color: #2770b7;
     transition: all .3s ease;
     position: relative
 }
@@ -4854,7 +4854,7 @@ textarea.is-invalid {
 }
 
 .line-btn:hover::before {
-    background-color: var(--title-color);
+    background-color: #2770b7;
     width: 45px
 }
 
@@ -4974,7 +4974,7 @@ textarea.is-invalid {
     font-size: 150px;
     font-weight: 800;
     line-height: .94;
-    color: var(--title-color);
+    color: #2770b7;
     text-transform: uppercase;
     text-align: center;
     position: relative;
@@ -5439,7 +5439,7 @@ textarea.is-invalid {
     width: var(--icon-size, 48px);
     line-height: 48px;
     display: inline-block;
-    color: var(--title-color);
+    color: #2770b7;
     text-align: center;
     font-size: 16px;
     border-radius: 50%;
@@ -5448,7 +5448,7 @@ textarea.is-invalid {
 }
 
 .social-btn a:hover {
-    background: var(--title-color);
+    background: #2770b7;
     color: var(--white-color);
     border-color: var(--title-color)
 }
@@ -5493,7 +5493,7 @@ textarea.is-invalid {
     height: 46px;
     line-height: 46px;
     border-radius: 50%;
-    color: var(--title-color);
+    color: #2770b7;
     border: 0;
     font-size: 16px
 }
@@ -6639,7 +6639,7 @@ a.text-theme:hover,
     font-weight: 300;
     font-family: var(--body-font);
     line-height: 1.313;
-    color: var(--title-color);
+    color: #2770b7;
     position: relative;
     display: flex;
     align-items: center
@@ -7085,7 +7085,7 @@ a.text-theme:hover,
 .footer-widget.widget_categories a i,
 .footer-widget.widget_nav_menu a i {
     font-size: 12px;
-    color: var(--title-color);
+    color: #2770b7;
     position: absolute;
     opacity: 0;
     left: 0
@@ -7113,7 +7113,7 @@ a.text-theme:hover,
     bottom: 0;
     top: auto;
     height: 2px;
-    background-color: var(--title-color);
+    background-color: #2770b7;
     transition: all ease .4s;
     border: 0;
     margin: 0;
@@ -7607,7 +7607,7 @@ a.text-theme:hover,
     font-size: 14px;
     font-weight: 600;
     font-family: var(--title-font);
-    color: var(--title-color);
+    color: #2770b7;
     padding: 0
 }
 
@@ -7669,7 +7669,7 @@ a.text-theme:hover,
 .header-links span,
 .header-links p,
 .header-links a {
-    color: var(--title-color);
+    color: #2770b7;
     font-family: var(--body-font);
     display: inline-flex;
     align-items: center
@@ -7696,7 +7696,7 @@ a.text-theme:hover,
     position: relative;
     height: 60px;
     width: 60px;
-    border: 2px solid var(--title-color);
+    border: 2px solid #2770b7;
     border-radius: 50%;
     text-align: center;
     line-height: 54px;
@@ -7707,7 +7707,7 @@ a.text-theme:hover,
     display: block;
     height: 2px;
     width: 18px;
-    background: var(--title-color);
+    background: #2770b7;
     margin: auto;
     transition: .4s
 }
@@ -7801,7 +7801,7 @@ a.text-theme:hover,
     line-height: 30px;
     font-weight: 700;
     border-radius: 96px;
-    color: var(--title-color);
+    color: #2770b7;
     border: 1px solid var(--white-color)
 }
 
@@ -7937,7 +7937,7 @@ a.text-theme:hover,
     font-weight: 600;
     font-size: 14px;
     font-family: var(--title-font);
-    color: var(--title-color);
+    color: #2770b7;
     text-transform: uppercase;
     letter-spacing: -0.14px
 }
@@ -7973,7 +7973,7 @@ a.text-theme:hover,
 
 .copyright-text {
     margin: 0;
-    color: var(--title-color);
+    color: #2770b7;
     font-weight: 400;
     font-size: 18px;
     line-height: 28px
@@ -8090,7 +8090,7 @@ a.text-theme:hover,
 .pagination-wrap .pagination .page-link {
     margin-left: 0;
     padding: 0 0;
-    color: var(--title-color);
+    color: #2770b7;
     font-weight: 600;
     font-family: var(--title-font);
     font-size: 14px;
@@ -9248,7 +9248,7 @@ a.text-theme:hover,
     line-height: 100px;
     font-style: italic;
     font-weight: 700;
-    color: var(--title-color);
+    color: #2770b7;
     font-family: var(--title-font2);
     margin-bottom: 25px;
     margin-top: -15px
@@ -9590,7 +9590,7 @@ a.text-theme:hover,
     font-size: 18px;
     line-height: 28px;
     font-weight: 600;
-    color: var(--title-color);
+    color: #2770b7;
     margin-right: 0
 }
 
@@ -9912,7 +9912,7 @@ a.text-theme:hover,
     border-radius: 10px;
     background: var(--black-color2);
     font-size: 18px;
-    color: var(--title-color);
+    color: #2770b7;
     padding: 0px 40px 0px 30px;
     height: 60px
 }
@@ -9938,7 +9938,7 @@ a.text-theme:hover,
 }
 
 .sidebar__search form button svg {
-    color: var(--title-color);
+    color: #2770b7;
     width: 20px
 }
 
@@ -10050,7 +10050,7 @@ a.text-theme:hover,
     font-size: 14px;
     font-weight: 600;
     background: var(--black-color2);
-    color: var(--title-color);
+    color: #2770b7;
     display: block;
     border-radius: 10px
 }
@@ -10192,7 +10192,7 @@ a.text-theme:hover,
     font-size: 18px;
     line-height: 28px;
     font-weight: 700;
-    color: var(--title-color);
+    color: #2770b7;
     text-decoration: underline;
     text-decoration-color: var(--gray-color);
     text-decoration-thickness: 1px
@@ -11521,7 +11521,7 @@ a.text-theme:hover,
     font-size: 20px;
     line-height: 30px;
     font-weight: 600;
-    color: var(--title-color);
+    color: #2770b7;
     transition: 1s
 }
 
@@ -12310,7 +12310,7 @@ a.text-theme:hover,
     padding: 10px 30px;
     font-size: 16px;
     font-weight: 600;
-    color: var(--title-color);
+    color: #2770b7;
     border-radius: 30px;
     border: 1px solid var(--border-color)
 }
@@ -12477,7 +12477,7 @@ a.text-theme:hover,
     font-size: 20px;
     line-height: 30px;
     font-weight: 600;
-    color: var(--title-color);
+    color: #2770b7;
     transition: 1s;
     max-width: 160px;
     width: 100%
